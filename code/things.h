@@ -36,6 +36,12 @@ public:
 		case 1:
 			entity.location.y += 1;
 			break;
+		case 2:
+			entity.location.x -= 1;
+			break;
+		case 3:
+			entity.location.y -= 1;
 		}
+		return entity;
 	}
 };
