@@ -1,6 +1,8 @@
 #include <iostream>
+#include "things.h"
 
 int main() {
-	std::cout << "Hello main World!\n";
+  Player player;
+  player.input(player);
 	return 0;
 }

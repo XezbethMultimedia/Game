@@ -67,5 +67,6 @@ public:
                     case 3:
                       break;
 		  }
+                  return player;
 	}
 };
