@@ -44,4 +44,16 @@ public:
 		}
 		return entity;
 	}
+
+	Entity input(Player player) { Commands command;
+          std::string input;
+
+		  std::cout << "What do you want to do?: ";
+          std::cin >> input;
+		  command = stringToCommand[input];
+
+		  switch (command) { case 0:
+                       player = player.move(player);
+		  }
+	}
 };
