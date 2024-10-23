@@ -1,2 +1,2 @@
 # Game
-Init commit.
+Added all basic propities for the game.
